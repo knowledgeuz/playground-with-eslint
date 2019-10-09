@@ -7,7 +7,7 @@
     "start": "npx babel-node ./src/index.js",
     "play": "npx nodemon -q --exec babel-node ./src/index.js",
     "lint": "npx eslint .",
-    "test": "jest --verbose"
+    "test": "npx jest --verbose"
   },
   "author": "Igor Kim",
   "license": "ISC",
